@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imports.h" />
+    <ClInclude Include="utils\memory.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\xorstr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks\hooks.h">
+      <Filter>hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="define\structs.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\crt.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\structs.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="math\structs.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\il2cpp.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="main\projectile.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\sdk.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\vars.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\target.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\esp.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="main\utils.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\aim.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="main\misc.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{309e70b1-1c67-42ca-90c6-d803aa5a9953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hooks">
+      <UniqueIdentifier>{76119f04-b7de-47b6-bb9b-180e172cd397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{83f84421-ab97-4551-9fb8-e804da858793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{4bdbeba4-2ad0-44df-b7fb-3193f9086f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{3d63b41f-3f1a-4a91-bb39-63b2a06effc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{3f330e5d-3a61-48e4-8c8c-b3473f2a36f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
